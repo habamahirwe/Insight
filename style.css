@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(146, 96, 96);
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    /* align-items: center; */
+    background-color: #507AA0;
+    padding: 50px;
+}
+.text-right{
+    backgroud-color: violet;
+}
+.text-left .footer{
+    display: flex;
+    margin-top: 20px;
+    color: white;
+}
+.text-left .footer p{
+    font-size: small;
+}
+.text-left .footer div{
+    margin-left: 15px;
+}
